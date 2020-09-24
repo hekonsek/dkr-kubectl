@@ -1,7 +1,7 @@
-FROM ubuntu
+FROM ubuntu:20.04
 
 RUN apt update && \
-    apt install -y curl unzip && \
+    apt install -y curl unzip vim && \
     rm -rf /var/lib/apt/lists/*
 
 RUN curl -o /usr/bin/kubectl -LO https://storage.googleapis.com/kubernetes-release/release/v1.19.0/bin/linux/amd64/kubectl

@@ -8,6 +8,7 @@ This is [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/) comman
 - `kubectl`
 - `aws-iam-authenticator` for AWS authentication
 - `aws` cli v2 (required by `aws-iam-authenticator`)  
+- `vi` (`kubectl` editor)
 
 ## License
 
